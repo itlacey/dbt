@@ -1,0 +1,8 @@
+version: 2
+
+sources:
+  - name: spacex
+    description: Space X Data
+    schema: spacex
+    tables:
+      - name: launch
