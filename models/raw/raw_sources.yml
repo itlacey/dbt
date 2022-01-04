@@ -2,7 +2,8 @@ version: 2
 
 sources:
   - name: datalake
-    description: Space X Data
+    description: Raw datalake json files
     schema: datalake
     tables:
-      - name: launch
+      - name: spacex_launch
+      - name: health_run
