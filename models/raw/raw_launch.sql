@@ -38,7 +38,9 @@ json_raw::json->>'flight_number' flight_number
 ,(json_raw::json->>'ships') ships
 ,(json_raw::json->>'capsules') capsules
 ,(json_raw::json->>'payloads') payloads
-from {{source('datalake','launch')}}
+,json_raw::json json_payload
+,now() etl_dttm
+from {{source('datalake','spacex_launch')}}
 )
 
 select *
