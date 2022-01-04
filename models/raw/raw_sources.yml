@@ -1,8 +1,8 @@
 version: 2
 
 sources:
-  - name: spacex
+  - name: datalake
     description: Space X Data
-    schema: spacex
+    schema: datalake
     tables:
       - name: launch

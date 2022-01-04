@@ -38,7 +38,7 @@ json_raw::json->>'flight_number' flight_number
 ,(json_raw::json->>'ships') ships
 ,(json_raw::json->>'capsules') capsules
 ,(json_raw::json->>'payloads') payloads
-from {{source('spacex','launch')}}
+from {{source('datalake','launch')}}
 )
 
 select *
