@@ -7,3 +7,4 @@ sources:
     tables:
       - name: spacex_launch
       - name: health_run
+      - name: health_scale
