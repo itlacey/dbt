@@ -8,5 +8,7 @@ Personal DBT Project
 
 ### Sources:
 SpaceX API
+
 SmashRun/Strava (Run Data)
+
 WeightScale (BMI/Weight Data)
