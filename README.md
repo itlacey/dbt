@@ -1,15 +1,12 @@
-Welcome to your new dbt project!
+Personal DBT Project
 
-### Using the starter project
+### Pipeline (ELT):
+1. Data dumped into personal postgres db running on homelab docker image (Raw JSON)
+2. Data picke dup in datalake and parsed as dbt and materlized.
+3. Data in future will transformed takingo new schema for projects 
 
-Try running the following commands:
-- dbt run
-- dbt test
 
-
-### Resources:
-- Learn more about dbt [in the docs](https://docs.getdbt.com/docs/introduction)
-- Check out [Discourse](https://discourse.getdbt.com/) for commonly asked questions and answers
-- Join the [dbt community](http://community.getbdt.com/) to learn from other analytics engineers
-- Find [dbt events](https://events.getdbt.com) near you
-- Check out [the blog](https://blog.getdbt.com/) for the latest news on dbt's development and best practices
+### Sources:
+SpaceX API
+SmashRun/Strava (Run Data)
+WeightScale (BMI/Weight Data)
